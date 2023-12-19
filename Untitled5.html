@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style type="text/css">
+
+    .about-us {
+ display: flex;
+ width: 100%;
+ height: auto;
+ padding-top: 30px;
+}
+
+.image-block {
+ width: 30%;
+ height: auto;
+ padding-top: 10px;
+}
+
+.text-block {
+ width: 50%;
+ height: auto;
+}
+.gap-block{
+    width:20%;
+    height: auto;
+}
+.another-footer {
+    
+    background-color: #edf5ed;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+    
+
+</style>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="styles.css">
+    
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqFjcJ6pajs/rfdfs3SO+kD4Ck5BdPtF+to8xMp9Mvc9E4+/oFWZUyqYgj7" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <img src="https://www.bibhutisolutions.com/wp-content/uploads/2022/05/main-logo.png" alt="Logo" class="logo">
+        <nav class="nav">
+            <a style="text-decoration: none;" href="Untitled5.html">Home</a>
+            <a style="text-decoration: none;" href="#services">Services</a>
+            <a style="text-decoration: none;" href="#testimonial">Testimonials</a>
+            <a style="text-decoration: none;" href="#about">About Us</a>
+            <a style="text-decoration: none;" href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    
+      
+    <div class="wrapper">
+        <div class="carousel owl-carousel">
+           <div class="card card-1">
+            <img src="https://wowslider.com/sliders/demo-18/data1/images/hongkong1081704.jpg">
+
+           </div>
+           <div class="card card-2">
+            <img class="mySlides" src="https://wowslider.com/sliders/demo-18/data1/images/shanghai.jpg">
+
+           </div>
+           <div class="card card-3">
+            <img src="https://wowslider.com/sliders/demo-44/data1/images/bridge.jpg">
+
+           </div>
+           <div class="card card-4">
+            <img src="https://wowslider.com/sliders/demo-18/data1/images/hongkong1081704.jpg">
+
+           </div>
+           <div class="card card-5">
+            <img class="mySlides" src="https://wowslider.com/sliders/demo-18/data1/images/shanghai.jpg">
+
+           </div>
+        </div>
+        <script>
+        $(".carousel").owlCarousel({
+          margin: 20,
+          loop: true,
+          singleItem: true,
+          autoplay: true,
+          autoplayTimeout: 2000,
+          autoplayHoverPause: true,
+          responsive: {
+            0:{
+              items:1,
+              nav: false
+            },
+          }
+        });
+     </script>
+     
+     </div>
+       
+    <a id="services"></a>
+    <div class="container">
+        <h2 class="text-center mt-5 mb-4 margin-bottom: 3rem;"> Our Services</h2><br>
+        
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1533750349088-cd871a92f312?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFya2V0aW5nfGVufDB8fDB8fHww/300x200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Digital Marketing</h5>
+                           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed lectus id justo facilisis rutrum id quis quam.</p>
+                           <nav class="nav1">
+                            <a style="text-decoration: none;" href="about.html"><font color="white">Learn More</font></a>
+                            </nav>                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fHww/300x200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Software development</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed lectus id justo facilisis rutrum id quis quam.</p>
+                        <nav class="nav1">
+                            <a style="text-decoration: none;" href="about.html"><font color="white">Learn More</font></a>
+                            </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fHww/300x200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Web development</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed lectus id justo facilisis rutrum id quis quam.</p>
+                        <nav class="nav1">
+                            <a style="text-decoration: none;" href="about.html"><font color="white">Learn More</font></a>
+                            </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a id="about"></a>
+   
+    <section class="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="redborder">
+                    <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHdlYnNpdGV8ZW58MHx8MHx8fDA%3D" alt="About Us" class="img-fluid">
+                </div>
+            </div>
+                <div class="col-md-6">
+                    
+                    <h2 style="margin-bottom: 1.5rem;"> <font color="Black">About Us</h2>
+                    
+                    
+                    
+                    <p>We are a creative agency that focuses on building great brands and identities through strategic thinking, concept creation, and innovative digital experiences. With an experienced team of experts in marketing, design, and development, we bring your brand to life in stunning and memorable ways.</p>
+                    <ul>
+                        Innovative Solutions<br>
+                        Great Teamwork<br>
+                        Awesome Portfolio<br>
+                        <br>
+                    </ul>
+                        
+                        
+                        <nav class="nav1">
+                        <a style="text-decoration: none;" href="about.html"><font color="white">Learn More</font></a>
+                        </nav>
+                   
+                    
+                </font>
+                
+                </div>
+           
+        </div>
+    </section>
+</div>
+
+<a id="testimonial"></a>
+ <h2 class="text-center mt-5 mb-4">Testimonials</h2>
+ <div class="testimonials">
+     <div class="testimonial">
+         <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXZhdGFyfGVufDB8fDB8fHww" alt="Image">
+         <h4>Dev Shrestha</h4>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tellus auctor, aliquet odio quis, porttitor erat.</p>
+     </div>
+     <div class="testimonial">
+         <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fHww" alt="Image" >
+         <h4>Mantra Rai</h4>
+         <p>Ut id ex non orci tincidunt tincidunt. Quisque lobortis lacus nec imperdiet tempus.</p>
+     </div>
+     <div class="testimonial">
+         <img src=https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fHww alt="Image" >
+         <h4>Richard Johnson</h4>
+         <p>Sed aliquam odio sed ligula auctor, non malesuada tortor sollicitudin.</p>
+     </div>
+ </div>
+
+ <footer class="footer">
+    <div class="container">
+       <div class="row">
+         <div class="col-3 align-self-center">
+           <div class="footerlogo">
+           <img src="main-logo.png" alt="Logo" class="img-fluid">
+        </div>
+         </div>
+         <div class="col-3 align-self-center">
+           <ul class="navbar-nav align-content-center">
+            <font color="#c42103"><h4>Nav links</h4></font>
+             <li>
+               <a href="home.html" style="text-decoration: none;">Home</a>
+             </li>
+             <li>
+               <a href="about.html" style="text-decoration: none;">Services</a>
+             </li>
+             <li>
+               <a  href="contact.html" style="text-decoration: none;">Testimonials</a>
+             </li>
+             <li>
+                <a href="privacy-policy.html style="text-decoration: none;"">About Us</a>
+            </li>
+            <li>
+                <a href="privacy-policy.html" style="text-decoration: none;">Contact</a>
+            </li>
+           </ul>
+         </div>
+         <div class="col-3">
+            
+           <ul class="navbar-nav">
+            <font color="#c42103"><h4>Other Pages</h4></font>
+             <li class="nav-item">
+                <a href="softwaredevelopment.html" style="text-decoration: none;">Software Development</a>
+            </li>
+            <li class="nav-item">
+                <a href="appdevelopment.html" style="text-decoration: none;">App Development</a>
+            </li>
+            <li class="nav-item">
+                <a href="webdevelopment.html" style="text-decoration: none;">Web Development</a>
+            </li>
+           </ul>
+         </div>
+         <div class="col-3">
+            <ul class="navbar-nav">
+                <font color="#c42103"><h4>About Us</h4></font>
+                <u> <p>Baneshwor, Buddhanagar<br>
+                    Kathmandu,Nepal<br>
+                    9800000000</p> </u>    
+                
+                </ul>
+            
+          </div>
+       </div>
+    </div> 
+    
+    </div>
+ </div>
+    </footer>
+    <footer class="another-footer">
+        <u> <p>Copyright Reserved By Bhibhuti Solution</p> </u>
+
+    </footer>
+   
+</body>
+</html>
