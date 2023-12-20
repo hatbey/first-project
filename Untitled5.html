@@ -42,6 +42,15 @@
 </style>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="styles.css">
+ <!-- slider stylesheet -->
+ <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+ <!-- bootstrap core css -->
+ <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+ <!-- fonts style -->
+ <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet"> <!-- range slider -->
+ <!-- font awesome style -->
+ <link href="css/font-awesome.min.css" rel="stylesheet" />
+ <link rel="icon" href="images/favicon.png" type="image/gif" />
     
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqFjcJ6pajs/rfdfs3SO+kD4Ck5BdPtF+to8xMp9Mvc9E4+/oFWZUyqYgj7" crossorigin="anonymous">
@@ -53,6 +62,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -81,14 +91,6 @@
            </div>
            <div class="card card-3">
             <img src="https://wowslider.com/sliders/demo-44/data1/images/bridge.jpg">
-
-           </div>
-           <div class="card card-4">
-            <img src="https://wowslider.com/sliders/demo-18/data1/images/hongkong1081704.jpg">
-
-           </div>
-           <div class="card card-5">
-            <img class="mySlides" src="https://wowslider.com/sliders/demo-18/data1/images/shanghai.jpg">
 
            </div>
         </div>
@@ -123,8 +125,8 @@
                         <h5 class="card-title">Digital Marketing</h5>
                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed lectus id justo facilisis rutrum id quis quam.</p>
                            <nav class="nav1">
-                            <a style="text-decoration: none;" href="about.html"><font color="white">Learn More</font></a>
-                            </nav>                    </div>
+                            <a style="text-decoration: none;" href="about.html">Learn More</font></a>
+                            </nav>                  </div>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
@@ -134,7 +136,7 @@
                         <h5 class="card-title">Software development</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed lectus id justo facilisis rutrum id quis quam.</p>
                         <nav class="nav1">
-                            <a style="text-decoration: none;" href="about.html"><font color="white">Learn More</font></a>
+                            <a style="text-decoration: none;" href="about.html">Learn More</font></a>
                             </nav>
                     </div>
                 </div>
@@ -146,7 +148,7 @@
                         <h5 class="card-title">Web development</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed lectus id justo facilisis rutrum id quis quam.</p>
                         <nav class="nav1">
-                            <a style="text-decoration: none;" href="about.html"><font color="white">Learn More</font></a>
+                            <a style="text-decoration: none;" href="about.html">Learn More</font></a>
                             </nav>
                     </div>
                 </div>
@@ -178,8 +180,8 @@
                     </ul>
                         
                         
-                        <nav class="nav1">
-                        <a style="text-decoration: none;" href="about.html"><font color="white">Learn More</font></a>
+                    <nav class="nav1">
+                        <a style="text-decoration: none;" href="about.html">Learn More</a>
                         </nav>
                    
                     
@@ -254,24 +256,55 @@
             </li>
            </ul>
          </div>
-         <div class="col-3">
-            <ul class="navbar-nav">
+         <div class="col-md-6 col-lg-3 footer-col">
+            <div class="footer_contact">
                 <font color="#c42103"><h4>About Us</h4></font>
-                <u> <p>Baneshwor, Buddhanagar<br>
-                    Kathmandu,Nepal<br>
-                    9800000000</p> </u>    
+              <div class="contact_link_box">
                 
-                </ul>
-            
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span>
+                    Buddhanagar, Kathmandu
+                  </span>
+                  <br>
+                
+                
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span>
+                    Call +977 9841000000
+                  </span>
+                
+                <br>
+                
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                  <span>
+                    info@bibhutisolution.com
+                  </span>
+                
+                <p>
+                  <i class="fa fa-clock-o" aria-hidden="true"></i>
+                  <span>
+                    Mon-Fri: 10am-6pm
+                  </span>
+                </p>
+              </div>
+            </div>
           </div>
-       </div>
+          <div class="col-md-6 col-lg-4 footer-col">
+            <div class="map_container">
+              <div class="map">
+                <div id="googleMap"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div> 
     
     </div>
  </div>
     </footer>
     <footer class="another-footer">
-        <u> <p>Copyright Reserved By Bhibhuti Solution</p> </u>
+        <p>Copyright Reserved By Bhibhuti Solution</p>  
 
     </footer>
    

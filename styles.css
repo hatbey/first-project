@@ -19,7 +19,7 @@ body {
 .logo {
     max-width: 100px;
     max-height: 100px;
-    margin-left: 70px;
+    margin-left: 40px;
 }
 
 .nav {
@@ -39,8 +39,7 @@ body {
 }
 
 .nav a:hover {
-    background-color: rgb(201, 105, 105);
-    color: maroon;
+    color: rgb(241, 37, 37);
 }
 
 .slider {
@@ -132,21 +131,23 @@ body {
     display: flex;
     align-items: center;
     width: 100px;
-    border: 3px solid maroon;
-    background-color: maroon;
+    border: 1px solid maroon;
+    
     border-radius: 5px;
 }
 
 .nav1 a {
     text-decoration: underline;
     color: maroon;
-    font-size: 15px;
+    font-size: 14px;
     padding: 8px 8px;
-    border-radius: 5px;
+    border-radius: 3px;
     transition: background-color 0.3s;
 }
 .nav1 a:hover {
-    background-color: rgb(201, 105, 105);
+    background-color: rgb(201, 68, 68);
+    width: 100px;
+    color: white;
 }
 .footer {
     display: flex;
@@ -246,13 +247,13 @@ body {
   }
   .owl-dot{
     display: inline-block;
-    height: 15px;
-    width: 30px;
+    height: 10px;
+    width: 10px;
     margin: 0 10px 5px 5px;
     
     outline: none;
     border-radius: 14px;
-    border: 2px solid #ffffff!important;
+    border: 1px solid #ffffff!important;
     box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
     transition: all 0.3s ease;
   }
